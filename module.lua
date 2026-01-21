@@ -1,4 +1,7 @@
----Copyright (c) 2026 Unreality
+--- mathextended.lua
+---
+--- Copyright (c) 2026 Unreality
+--- This module is under the MIT license. Check LICENSE for details.
 
 ---Returns the factorial of the specified number.
 ---@param n integer
