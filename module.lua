@@ -38,7 +38,7 @@ math.sign = function(n)
     return (n > 0) and 1 or (n < 0) and -1 or 0
 end
 
----Rounds a numbers to the defined amount of decimals. The default decimal amount is 0.
+---Rounds a number to the defined amount of decimals. The default decimal amount is 0.
 ---@param n number
 ---@param decimals number
 math.round = function(n, decimals)
