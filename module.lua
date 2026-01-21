@@ -1,3 +1,5 @@
+---Copyright (c) 2026 Unreality
+
 ---Returns the factorial of the specified number.
 ---@param n integer
 math.fact = function(n)
