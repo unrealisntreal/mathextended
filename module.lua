@@ -1,4 +1,4 @@
---- mathextended.lua
+--- mathextended
 ---
 --- Copyright (c) 2026 Unreality
 --- This module is under the MIT license. Check LICENSE for details.
