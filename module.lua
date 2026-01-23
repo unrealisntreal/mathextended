@@ -41,9 +41,9 @@ math.sign = function(n)
     return (n > 0) and 1 or (n < 0) and -1 or 0
 end
 
----Rounds a number to the defined amount of decimals. The default decimal amount is 0.
+---Returns the rounded version of a number.
 ---@param n number
----@param decimals number
+---@param decimals number The amount of decimals, default is 0.
 math.round = function(n, decimals)
 
     local p = 10 ^ (decimals or 0)
