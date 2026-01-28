@@ -1,8 +1,3 @@
---- mathextended
----
---- Copyright (c) 2026 Unreality
---- This module is under the MIT license. Check LICENSE for details.
-
 ---Returns the factorial of the specified number.
 ---@param n integer
 math.fact = function(n)
@@ -41,14 +36,22 @@ math.sign = function(n)
     return (n > 0) and 1 or (n < 0) and -1 or 0
 end
 
----Returns the rounded version of a number.
+---Rounds a numbers to the defined amount of decimals. The default decimal amount is 0.
 ---@param n number
----@param decimals number The amount of decimals, default is 0.
+---@param decimals number
 math.round = function(n, decimals)
 
     local p = 10 ^ (decimals or 0)
     return math.floor(n * p + .5) / p
 
+end
+
+---Interpolates two values.
+---@param a number
+---@param b number
+---@param t number
+math.lerp = function(a, b, t)
+    return a + (b - a) * t
 end
 
 ---The value of Euler's number.
