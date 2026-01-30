@@ -23,6 +23,10 @@ Simple lua module aiming to provide more functionalities to the already existing
     <td>Rounds a number to the defined amount of decimals. The default decimal amount is 0.</td>
   </tr>
   <tr>
+    <td><code>math.lerp()</code></td>
+    <td>Interpolates two values.</td>
+  </tr>
+  <tr>
     <td><code>math.e</code></td>
     <td>The value of Euler's number. Shorthand for math.exp(1).</td>
   </tr>
