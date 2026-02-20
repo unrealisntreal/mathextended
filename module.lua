@@ -31,14 +31,12 @@ function math.sign(n)
   return (n > 0) and 1 or (n < 0) and -1 or 0
 end
 
-local floor = math.floor
-
 ---Rounds a numbers to the defined amount of decimals. The default decimal amount is 0.
 ---@param n number
 ---@param decimals number
 function math.round(n, decimals)
   local p = 10 ^ (decimals or 0)
-  return floor(n * p + .5) / p
+  return math.floor(n * p + .5) / p
 end
 
 ---Interpolates two values.
@@ -49,12 +47,11 @@ function math.lerp(a, b, t)
   return a + (b - a) * t
 end
 
-local fact = math.fact
-
 ---Returns the number of ways picking p unordered outcomes from n possibilities, without repetition.
 ---@param n number
 ---@param p number
 function math.comb(n, p)
+  local fact = math.fact
   return fact(n) / (fact(p) * fact(n - p))
 end
 
