@@ -2,7 +2,7 @@
 Simple module providing more annotated mathematical functions in lua.
 
 > [!WARNING]  
-> `math.comb()` is currently quite slow. Please be patient as I figure out a better implementation.
+> Some functions are currently pretty slow. Please be patient as I figure out better implementations.
 
 ### Usage
 Drop the module inside your project folder and require it like this:
