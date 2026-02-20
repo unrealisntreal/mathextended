@@ -1,2 +1,5 @@
 # mathextended
-Simple lua module aiming to provide more mathematical functions to the math library.
+Simple module aiming to extend the default lua `math` library.
+
+> [!NOTE]  
+> `math.comb()` is currently quite slow. Please be patient as I figure out a better implementation.
